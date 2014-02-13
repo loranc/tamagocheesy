@@ -7,7 +7,7 @@
 <h1><i class="fa fa-bug"></i> <%= @tamagotchi.name %></h1>
 <p>Bio: <%= @tamagotchi.bio %> </p>
 <p>
-<%= rating @tamagotchi.rating %>
+<%= rating(@tamagotchi.rating) unless @tamagotchi.rating == nil  %>
 
 </p>
 

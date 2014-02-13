@@ -21025,3 +21025,610 @@ ActionView::Template::Error (No route matches {:user_id=>nil, :id=>nil} missing 
   Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
   Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
   Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 15:00:32 +0100
+
+LoadError (cannot load such file -- /Users/Felix/Dev/Le Wagon/Rails Tests/tamagotchi bis/config/routes.rb):
+  activesupport (4.0.2) lib/active_support/dependencies.rb:223:in `load'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:223:in `block in load'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:214:in `load_dependency'
+  activesupport (4.0.2) lib/active_support/dependencies.rb:223:in `load'
+  railties (4.0.2) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.0.2) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.0.2) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.0.2) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.0.2) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.0.2) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.0.2) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.0.2) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.0.2) lib/rails/application/finisher.rb:81:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:397:in `_run__758983151169360607__prepare__callbacks'
+  activesupport (4.0.2) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+  actionpack (4.0.2) lib/action_dispatch/middleware/reloader.rb:62:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.9ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2014-02-13 15:00:33 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (73.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 15:01:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (17.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2014-02-13 15:01:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Felix/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 15:04:33 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (No route matches {:user_id=>nil, :id=>nil} missing required keys: [:user_id, :id]):
+    27:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
+    28:             <ul class="dropdown-menu">
+    29:               <li><%= link_to "Users list", root_url %></li>
+    30:               <li><%= link_to "Tamagotcheesy profile", user_tamagotchi_url(@user, @tamagotchi) %></li>
+    31:               <li class="divider"></li>
+    32:               <li><%= link_to "KILL'EM ALL", root_url %></li>
+    33:             </ul>
+  app/views/layouts/application.html.erb:30:in `_app_views_layouts_application_html_erb__4144449119465757786_70216438886980'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/tamagotchis.css?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:10 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2014-02-13 15:06:11 +0100
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 69ms (Views: 27.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:11 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:12 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:12 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:12 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:12 +0100
+
+
+Started GET "/users/6" for 127.0.0.1 at 2014-02-13 15:06:12 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mTamagotchi Load (60.3ms)[0m  SELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."user_id" = ? ORDER BY "tamagotchis"."id" ASC LIMIT 1  [["user_id", 6]]
+  Rendered users/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 124ms (Views: 9.8ms | ActiveRecord: 61.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:13 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:13 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:13 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:13 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:13 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:06:13 +0100
+
+
+Started GET "/users/6/tamagotchis/1" for 127.0.0.1 at 2014-02-13 15:06:14 +0100
+Processing by TamagotchisController#show as HTML
+  Parameters: {"user_id"=>"6", "id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mTamagotchi Load (0.2ms)[0m  SELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", "6"]]
+  Rendered tamagotchis/show.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (undefined method `times' for nil:NilClass):
+     7: <h1><i class="fa fa-bug"></i> <%= @tamagotchi.name %></h1>
+     8: <p>Bio: <%= @tamagotchi.bio %> </p>
+     9: <p>
+    10: <%= rating(@tamagotchi.rating) ? rating(0) : rating(@tamagotchi.rating) %>
+    11: 
+    12: </p>
+    13: 
+  app/helpers/tamagotchis_helper.rb:6:in `rating'
+  app/views/tamagotchis/show.html.erb:10:in `_app_views_tamagotchis_show_html_erb__527463952250856541_70216435096700'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/users/6/tamagotchis/1" for 127.0.0.1 at 2014-02-13 15:06:14 +0100
+Processing by TamagotchisController#show as HTML
+  Parameters: {"user_id"=>"6", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mTamagotchi Load (0.4ms)[0m  [1mSELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", "6"]]
+  Rendered tamagotchis/show.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `times' for nil:NilClass):
+     7: <h1><i class="fa fa-bug"></i> <%= @tamagotchi.name %></h1>
+     8: <p>Bio: <%= @tamagotchi.bio %> </p>
+     9: <p>
+    10: <%= rating(@tamagotchi.rating) ? rating(0) : rating(@tamagotchi.rating) %>
+    11: 
+    12: </p>
+    13: 
+  app/helpers/tamagotchis_helper.rb:6:in `rating'
+  app/views/tamagotchis/show.html.erb:10:in `_app_views_tamagotchis_show_html_erb__527463952250856541_70216435521920'
+
+
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Felix/.rvm/gems/ruby-2.0.0-p353@railstutorial_4_0/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/tamagotchis.css?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:04 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (39.7ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:06 +0100
+
+
+Started GET "/users/7" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36mTamagotchi Load (0.2ms)[0m  [1mSELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."user_id" = ? ORDER BY "tamagotchis"."id" ASC LIMIT 1[0m  [["user_id", 7]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:07 +0100
+
+
+Started GET "/users/7/tamagotchis/61" for 127.0.0.1 at 2014-02-13 15:07:08 +0100
+Processing by TamagotchisController#show as HTML
+  Parameters: {"user_id"=>"7", "id"=>"61"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36mTamagotchi Load (0.1ms)[0m  [1mSELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1[0m  [["id", "61"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", "7"]]
+  Rendered tamagotchis/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 17ms (Views: 11.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:08 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:08 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:08 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:09 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:09 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:09 +0100
+
+
+Started GET "/users/7" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  [1m[35mTamagotchi Load (0.2ms)[0m  SELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."user_id" = ? ORDER BY "tamagotchis"."id" ASC LIMIT 1  [["user_id", 7]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:15 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:16 +0100
+
+
+Started GET "/users/32" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "32"]]
+  [1m[36mTamagotchi Load (0.1ms)[0m  [1mSELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."user_id" = ? ORDER BY "tamagotchis"."id" ASC LIMIT 1[0m  [["user_id", 32]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:17 +0100
+
+
+Started GET "/users/32/tamagotchis/56" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+Processing by TamagotchisController#show as HTML
+  Parameters: {"user_id"=>"32", "id"=>"56"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "32"]]
+  [1m[36mTamagotchi Load (0.1ms)[0m  [1mSELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1[0m  [["id", "56"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", "32"]]
+  Rendered tamagotchis/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 18.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:07:18 +0100
+
+
+Started GET "/users/32/tamagotchis/56/edit" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+Processing by TamagotchisController#edit as HTML
+  Parameters: {"user_id"=>"32", "id"=>"56"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "32"]]
+  [1m[35mTamagotchi Load (0.1ms)[0m  SELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1  [["id", "56"]]
+  Rendered tamagotchis/_form.html.erb (518.9ms)
+  Rendered tamagotchis/edit.html.erb within layouts/application (566.8ms)
+Completed 200 OK in 576ms (Views: 574.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:12 +0100
+
+
+Started PATCH "/users/32/tamagotchis/56" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+Processing by TamagotchisController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DWI0/m8xkO6x+e/IfiRCDutO1GxvSg4tG/l1akbNzJc=", "tamagotchi"=>{"name"=>"Billy", "bio"=>"", "rating"=>"6"}, "commit"=>"Create", "user_id"=>"32", "id"=>"56"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "32"]]
+  [1m[35mTamagotchi Load (0.2ms)[0m  SELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1  [["id", "56"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (37.6ms)[0m  UPDATE "tamagotchis" SET "bio" = ?, "rating" = ?, "updated_at" = ? WHERE "tamagotchis"."id" = 56  [["bio", ""], ["rating", 6], ["updated_at", Thu, 13 Feb 2014 14:08:16 UTC +00:00]]
+  [1m[36m (10.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/32/tamagotchis/56
+Completed 302 Found in 62ms (ActiveRecord: 48.4ms)
+
+
+Started GET "/users/32/tamagotchis/56" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+Processing by TamagotchisController#show as HTML
+  Parameters: {"user_id"=>"32", "id"=>"56"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "32"]]
+  [1m[36mTamagotchi Load (0.1ms)[0m  [1mSELECT "tamagotchis".* FROM "tamagotchis" WHERE "tamagotchis"."id" = ? LIMIT 1[0m  [["id", "56"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", "32"]]
+  Rendered tamagotchis/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/tamagotchis.css?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
+
+
+Started GET "/assets/tamagotchis.js?body=1" for 127.0.0.1 at 2014-02-13 15:08:16 +0100
