@@ -1,0 +1,23 @@
+
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#"><%= @tamagotchi.name %></a></li>
+  <li> <%= link_to @tamagotchi.user.name, user_path(@tamagotchi.user) %> </li>
+</ul>
+
+<h1><i class="fa fa-bug"></i> <%= @tamagotchi.name %></h1>
+<p>Bio: <%= @tamagotchi.bio %> </p>
+<p>
+<%= rating @tamagotchi.rating %>
+
+</p>
+
+
+<%= link_to edit_user_tamagotchi_path(@user, @tamagotchi), class: "btn btn-warning" do %>
+  <i class="fa fa-edit"></i> Edit
+<% end %>
+
+
+
+<%= link_to user_tamagotchi_path(@user, @tamagotchi), method: :delete, class: "btn btn-danger" do %>
+ <i class="fa fa-edit"></i> Delete
+<% end %>

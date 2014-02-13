@@ -1,0 +1,12 @@
+<ul class="nav nav-tabs">
+  <li><%= link_to @tamagotchi.name, user_tamagotchi_path(@user, @tamagotchi) %></li>
+  <li class="active"><a href="#"><%= @user.name %></a></li>
+</ul>
+
+<h1><%= @user.name %></h1>
+
+<div>
+  <p>Email : <%= @user.email %></p>
+  <p>Pet : <%= link_to @tamagotchi.name, user_tamagotchi_path(@user, @tamagotchi) %></p>
+</div>
+

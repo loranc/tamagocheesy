@@ -1,0 +1,19 @@
+<% @path = @tamagotchi.new_record? ?  user_tamagotchis_path(@user) : user_tamagotchi_path(@user, @tamagotchi) %>
+
+    <%= form_for @tamagotchi, url: @path do |f| %>
+      <div class="form-group">
+        <%= f.label :name %>
+        <%= f.text_field :name, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :bio %>
+        <%= f.text_area :bio, class: 'form-control'%>
+      </div>
+      <div class="form-group">
+        <%= f.label :rating %>
+        <%= f.select :rating, (1..Tamagotchi::RATING_MAX), {}, class: 'form-control' %>
+      </div>
+
+      <%= f.submit "Create", class: 'btn btn-primary'%>
+    <% end %>
+
